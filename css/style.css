@@ -1,0 +1,38 @@
+*{padding:0;margin:0}a,a:hover{text-decoration:none}.ndnc,.valid{text-align:left}.benefits,.clr,.testimonialSec,.txtFld{clear:both}a,abbr,address,b,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,i,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,samp,small,span,strong,sub,sup,table,tbody,td,tfoot,th,thead,tr,ul,var{margin:0;padding:0;border:0}ol,ul{list-style:none}article,aside,dialog,figure,footer,header,nav,section{display:block}a{color:#018ef6}a:hover{color:#666}
+
+body{ font: normal 14px 'Roboto',arial; color: #666; }
+.fail{    
+    color: #d14836;
+    font-size: 13px;
+    margin-bottom: 4px;
+    padding: 16px;
+    width: calc(100% - 30px);
+    background: #ffece9;
+}
+
+.citySec{ border: solid 1px #e0e0e0; padding:20px; width: 300px; margin:20px auto 0;} 
+.citySec legend{font-size: 20px; background: #fff; padding: 0 8px;} 
+.citySec select{ border: solid 1px #e0e0e0; padding:10px; width:calc(100% - 40px); font: normal 17px 'Roboto',arial; float: left; outline: none;} 
+.add{ float: right; width: 32px; height: 32px; background: url(../img/add.png) 0 0 no-repeat; margin: 5px 0 0 0; cursor: pointer; }
+
+.remove{ float: right; width: 32px; height: 32px; background: url(../img/minus.png) 0 0 no-repeat; margin: 5px 0 0 0; cursor: pointer; }
+
+#list{ float:left; width: 100%; margin: 15px 0 0 0}
+#list li{ float:left; width: 100%; border-bottom: solid 1px #e0e0e0; padding:8px 0;}
+#list li span{     float: left;
+    width: auto;
+    white-space: normal;
+    margin: 11px 0 0 0; font-size: 17px}
+#list li:last-child{ border-bottom:none;}
+
+label{  font: normal 14px 'Roboto',arial; color: #666; float: left; width: 100%; clear: both; margin:10px 0 0 0;} 
+input[type="password"], input[type="text"] { border: solid 1px #e0e0e0; float: left; width:calc(100% - 22px); padding: 10px; outline: none; clear: both; margin:10px 0 0 0;}
+
+button{ float: right; width: auto; margin: 20px 0 0 0; background: #666; border: none; color: #fff; padding: 10px 20px; font: normal 14px 'Roboto',arial; outline: none; }
+
+.success{ color: #fff; background: #4CAF50!important;
+ font-size: 13px;
+    margin-bottom: 4px;
+    padding: 16px;
+    width: calc(100% - 30px);
+}
